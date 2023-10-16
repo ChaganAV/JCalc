@@ -8,7 +8,7 @@ public class Pair <T,V>{
 
     @Override
     public String toString() {
-        return String.format("%s, fields: first type = %s, value = %s; second type = %s, value = %s",
+        return String.format("%s, fields: \n\tfirst type = %s, value = %s; \n\tsecond type = %s, value = %s",
                 getClass().getName(),getFirst().getClass(), getFirst(), getSecond().getClass(), getSecond());
     }
 
