@@ -4,6 +4,7 @@ public class Calculation{
     public static <T extends Number> void sum(T value1, T value2){
         double val1 = 0;
         double val2 = 0;
+
         if(value1 instanceof Integer){
             val1 = (Integer) value1;
         }
